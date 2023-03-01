@@ -4,7 +4,7 @@ public class Chapter08 {
 		int num = 1;
 		while (num < 5) {
 			System.out.println(num * num);
-			num++;
+			num++; //これを記述しないと永遠と"1"と表示される:注意
 		}
 		
 		int[] array = {1, 2, 3, 4};
