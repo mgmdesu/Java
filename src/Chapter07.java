@@ -1,6 +1,7 @@
+
 public class Chapter07 {
     public static void main(String[] args) {
-        String color = "yellow"; // 例としてyellowで初期化。他の色でも良い
+        String color = "red"; 
         switch(color) {
           case "red" :
             System.out.println("赤信号です");
