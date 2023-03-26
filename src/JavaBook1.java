@@ -1,6 +1,7 @@
 
 public class JavaBook1 {
 	public static void main(String[] args) {
+		//第1章
 		int age = 20;
 		System.out.println("私の年齢は" + age);
 		age = 31;

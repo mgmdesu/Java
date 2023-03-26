@@ -7,7 +7,7 @@ public class JavaBookPractice1 {
 		int c = 3 * 5;
 		System.out.println("縦幅3横幅5の長方形の面積は、" + c);
 		
-		//練習問題1.5(練習1-3)
+		//練習問題1.5(練習1-3) 
 		boolean bool = true;
 		char word = '駆';
 		double pi = 3.14;
