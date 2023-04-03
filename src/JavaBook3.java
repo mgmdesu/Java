@@ -23,6 +23,22 @@ public class JavaBook3 {
 			System.out.println("凶");
 		}
 		
+		//コード3-5,3-6
+		System.out.println("あなたの運勢を占います");
+		int fortune1 = new java.util.Random().nextInt(5)+1;
+		switch(fortune1) {
+				case 1:
+				case 2:
+					System.out.println("いいね！");
+					break;
+				case 3:
+					System.out.println("普通です");
+					break;
+				case 4:
+				case 5:
+					System.out.println("うーん・・・");
+		}
+		
 	}
 
 }
